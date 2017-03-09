@@ -158,6 +158,28 @@
         padding-bottom: 4px;
         border-bottom: 2px solid #ddd;
       }
+      @media screen and (max-width: 800px) {
+        body {
+          padding: 1.5em;
+        }
+        .image {
+          position: relative;
+          height: 80vw;
+          width: 100%;
+        }
+        .text {
+          position: static;
+          width: 100%;
+          padding: 0 1em;
+        }
+        .lede {
+          font-size: 1.2em;
+        }
+        .contact-info li {
+          display: block;
+          border: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -168,7 +190,7 @@
       <h1>Jenny Björk</h1>
       <p class="lede">Korrekturläsare, textredigerare och skribent.  I viss mån översättare från engelska, norska och danska. Alltid öppen för samarbete med nya intressanta kontakter.</p>
       <ul class="contact-info">
-        <li>jenny@jennybjork.com</li>
+        <li><a href="mailto:jenny@jennybjork.com">jenny@jennybjork.se</a></li>
         <li>070 - 725 05 63</li>
       </ul>
       <!--<a class="btn" href="#">Kontakta mig</a>-->
